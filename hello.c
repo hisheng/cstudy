@@ -4,6 +4,9 @@
 #define USER "hisheng"
 
 
+//声明比较大小函数
+int max(int n1 , int n2);
+
 
 int main()
 {
@@ -25,5 +28,20 @@ int main()
 		printf("age is %s\n", age);
 	}
 
+	age = max(5 , 4);
+	printf("5 和 4 中  %d 大 \n", age);
+
 	return 0;
+}
+
+int max(int n1 , int n2)
+{
+	int result ;
+
+	if (n1 > n2)
+	 	result = n1 ;
+	else
+		result = n2 ;
+
+	return result ;
 }
