@@ -25,7 +25,7 @@ int main()
 	printf("*ptr 是 %d \n", ptr);
 
 	while(age--){
-		printf("age is %s\n", age);
+		printf("age is %d\n", age);
 	}
 
 	age = max(5 , 4);
