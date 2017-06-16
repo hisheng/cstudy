@@ -33,11 +33,25 @@ int main()
 
 
 	double balance[2] = {100.2,33.2};
-	balance[2] = 22.2;
-	for (int i = 0; i < 2; ++i)
-	{
+	balance[3] = 22.2;
+	for (int i = 0; i < 2; i++)
+
 		printf("balance[%d] = %d \n",i,balance[i]);
 	}
+
+	int var1;
+	printf("var1 变量的地址 ：%x\n", &var1);
+
+
+
+	int var2 = 20; //实际变量声明
+	int *ip; //指针变量申明
+
+	ip = &var2 // 指针存储 var2 的地址
+	printf("var2 的地址 %x \n", &var2);
+	printf("指针ip 存储的 地址 %x \n",ip);
+	printf("使用指针访问值 ip %d \n", ip);
+	printf("使用指针访问值 *ip %d \n", *ip);
 
 
 	return 0;
