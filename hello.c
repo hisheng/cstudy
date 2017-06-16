@@ -34,7 +34,7 @@ int main()
 
 	double balance[2] = {100.2,33.2};
 	balance[2] = 22.2;
-	for (int i = 0; i < sizeof(balance); ++i)
+	for (int i = 0; i < 2; ++i)
 	{
 		printf("balance[%d] = %d \n",i,balance[i]);
 	}
