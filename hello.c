@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <Linux/module.h>
 
 //定义常量
 #define USER "hisheng"
@@ -46,8 +47,9 @@ int main()
 
 	int var2 = 20; //实际变量声明
 	int *ip; //指针变量申明
-
-	ip = &var2 ;// 指针存储 var2 的地址
+	
+	
+	ip = &var2 ; // 指针存储 var2 的地址
 	printf("var2 的地址 %x \n", &var2);
 	printf("指针ip 存储的 地址 %x \n",ip);
 	printf("使用指针访问值 *ip %d \n", *ip);
