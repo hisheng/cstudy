@@ -31,6 +31,15 @@ int main()
 	age = max(5 , 4);
 	printf("5 和 4 中  %d 大 \n", age);
 
+
+	double balance[2] = {100.2,33.2};
+	balance[2] = 22.2;
+	for (int i = 0; i < sizeof(balance); ++i)
+	{
+		printf("balance[%d] = %d \n",i,balance[i]);
+	}
+
+
 	return 0;
 }
 
