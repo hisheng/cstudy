@@ -49,8 +49,7 @@ int main()
 
 	ip = &var2 // 指针存储 var2 的地址
 	printf("var2 的地址 %x \n", &var2);
-	printf("指针ip 存储的 地址 %x \n",ip);
-	printf("使用指针访问值 ip %d \n", ip);
+	printf("指针ip 存储的 地址 %x \n",ip);  
 	printf("使用指针访问值 *ip %d \n", *ip);
 
 
