@@ -19,7 +19,7 @@ int main()
 
 	printf("交换前 a b 的值为 %d %d\n",a,b);
 
-	swap(a ,b);
+	swap(&a ,&b);
 	printf("交换后 a b 的值为 %d %d\n",a,b);
 
 }
