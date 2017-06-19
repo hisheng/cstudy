@@ -16,13 +16,13 @@ int main()
 
 	/* Book1 */
 	strcpy(Book1.title , "c programming");
-	Book1.author = "hisheng";
+	Book1.author = {'h','i','s','h','e','n','g'};
 	strcpy(Book1.subject = 'cc');
 	Book1.book_id = 1134;
 
 	/* Book2*/
 	strcpy(Book1.title , "PHP programming");
-	Book1.author = "hisheng phps";
+	strcpy(Book1.author = 'cc'); 
 	strcpy(Book1.subject = 'php');
 	Book1.book_id = 113444;
 
