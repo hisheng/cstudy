@@ -23,5 +23,5 @@ int main(void)
 	{
 		printf("%d \n", myArray[i]);
 	}
-	return 0 ;
+	return 0
 }
