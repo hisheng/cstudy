@@ -15,7 +15,7 @@ int main()
 
 	data.i = 10;
 	data.f = 220.5;
-	strcpy(data.str,'c programming');
+	strcpy(data.str,"c programming");
 
 	printf( "data.i : %d\n", data.i);
    	printf( "data.f : %f\n", data.f);
