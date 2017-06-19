@@ -21,10 +21,10 @@ int main()
 	Book1.book_id = 1134;
 
 	/* Book2*/
-	strcpy(Book1.title , "PHP programming");
-	strcpy(Book1.author ,"php"); 
-	strcpy(Book1.subject , "php");
-	Book1.book_id = 113444;
+	strcpy(Book2.title , "PHP programming");
+	strcpy(Book2.author ,"php"); 
+	strcpy(Book2.subject , "php");
+	Book2.book_id = 113444;
 
 	 /* 输出 Book1 信息 */
    printf( "Book 1 title : %s\n", Book1.title);
