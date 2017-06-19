@@ -26,7 +26,7 @@ int main()
    	printf("Description: %s\n", description );
 
    	 /* 假设您想要存储更大的描述信息 */
-   	description = realloc(100 * sizeof(char));
+   	description = realloc(description,100 * sizeof(char));
 
    	if( description == NULL )
    	{
