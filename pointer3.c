@@ -22,7 +22,10 @@ int main()
 
 	int myarray[4] = {1,2,3,0};
    int *ptrArray ;
+   int *p2;
 	ptrArray = myarray;
+   p2 = myarray + 1;
 	printf("ptrArray 地址 %p \n", ptrArray);
    printf("*ptrArray = %d\n", *ptrArray);
+   printf("*p2 = %d\n", *p2);
 }
