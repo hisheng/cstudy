@@ -28,4 +28,5 @@ int main()
 	printf("ptrArray 地址 %p \n", ptrArray);
    printf("*ptrArray = %d\n", *ptrArray);
    printf("*p2 = %d\n", *p2);
+   printf("myarray的占用空间 = %d\n", sizeof(myarray));
 }
