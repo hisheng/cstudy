@@ -18,4 +18,11 @@ int main()
 
    	printf("ptr 变量的地址： %d\n", ptr);
    	printf("ptr 变量的地址  的值(*ptr)： %d\n", *ptr);
+
+
+   	char *header = "Sound";  
+	*header = 'L';
+	printf("%x\n",header);
+	printf("%s\n",header);
+	printf("%s\n",*header);
 }
