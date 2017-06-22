@@ -23,5 +23,5 @@ int main()
    	int myarray[4] = {1,2,3,0};
 	int *ptrArray ;
 	ptrArray = myarray;
-	printf("ptrArray 地址 %d \n", ptrArrasy);
+	printf("ptrArray 地址 %d \n", ptrArray);
 }
