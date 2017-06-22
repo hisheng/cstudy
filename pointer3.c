@@ -20,7 +20,7 @@ int main()
 	printf("ptr 变量的地址  的值(*ptr)： %d\n", *ptr);
 
 
-	int myarray[4] = {1,2,3,0};
+	int myarray[4] = {1,222,33,40};
    int *ptrArray ;
    int *p2;
 	ptrArray = myarray;
