@@ -20,9 +20,8 @@ int main()
    	printf("ptr 变量的地址  的值(*ptr)： %d\n", *ptr);
 
 
-   	char *header = "Sound";  
-	*header = 'L';
-	printf("%x\n",header);
-	printf("%s\n",header);
-	printf("%s\n",*header);
+   	int myarray[4] = {1,2,3,0};
+	int *ptrArray ;
+	ptrArray = myarray;
+	printf("ptrArray 地址 %d \n", ptrArrasy);
 }
